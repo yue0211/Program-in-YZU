@@ -1,0 +1,4 @@
+﻿  HugeInteger - Student ID - hw3.cpp
+C:\Users\User\Desktop\基哥程設二作業\hw3\hw3\Project1\HugeInteger - Student ID - hw3.cpp(72): warning C4715: 'HugeInteger::equal': 不是所有控制路徑都傳回值
+C:\Users\User\Desktop\基哥程設二作業\hw3\hw3\Project1\HugeInteger - Student ID - hw3.cpp(111): warning C4715: 'HugeInteger::less': 不是所有控制路徑都傳回值
+  Project1.vcxproj -> C:\Users\User\Desktop\基哥程設二作業\hw3\hw3\Project1\Debug\Project1.exe

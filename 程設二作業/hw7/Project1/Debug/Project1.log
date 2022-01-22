@@ -1,0 +1,18 @@
+﻿  Assignment 7.cpp
+C:\Users\User\Desktop\基哥程設二作業\hw7\Project1\Vector.h(645,27): warning C4018: '<': signed/unsigned 不相符
+C:\Users\User\Desktop\基哥程設二作業\hw7\Project1\HugeInteger.h(110): message : 請參考正在進行編譯的函式 樣板 具現化 'bool operator ==<int>(const vector<int> &,const vector<int> &)'
+C:\Users\User\Desktop\基哥程設二作業\hw7\Project1\HugeInteger.h(109): message : 編譯 類別 樣板 成員函式 'bool HugeInteger<vector<int>>::operator ==(HugeInteger<vector<int>> &)' 期間
+C:\Users\User\Desktop\基哥程設二作業\hw7\Project1\HugeInteger.h(216): message : 請參考正在進行編譯的函式 樣板 具現化 'bool HugeInteger<vector<int>>::operator ==(HugeInteger<vector<int>> &)'
+C:\Users\User\Desktop\基哥程設二作業\hw7\Project1\HugeInteger.h(85): message : 編譯 類別 樣板 成員函式 'HugeInteger<vector<int>>::HugeInteger(const HugeInteger<vector<int>> &)' 期間
+C:\Users\User\Desktop\基哥程設二作業\hw7\Project1\Assignment 7.cpp(164): message : 請參考正在進行編譯的函式 樣板 具現化 'HugeInteger<vector<int>>::HugeInteger(const HugeInteger<vector<int>> &)'
+C:\Users\User\Desktop\基哥程設二作業\hw7\Project1\Assignment 7.cpp(109): message : 請參考正在進行編譯的函式 樣板 具現化 'void input<vector<int>>(HugeInteger<vector<int>> [],HugeInteger<vector<int>> [])'
+C:\Users\User\Desktop\基哥程設二作業\hw7\Project1\Assignment 7.cpp(53): message : 請參考正在進行編譯的函式 樣板 具現化 'void testHugeIntegers<vector<int>>(HugeInteger<vector<int>> [],HugeInteger<vector<int>> [])'
+C:\Users\User\Desktop\基哥程設二作業\hw7\Project1\HugeInteger.h(167): warning C4715: 'HugeInteger<vector<unsigned int> >::operator<': 不是所有控制路徑都傳回值
+C:\Users\User\Desktop\基哥程設二作業\hw7\Project1\HugeInteger.h(167): warning C4715: 'HugeInteger<vector<int> >::operator<': 不是所有控制路徑都傳回值
+C:\Users\User\Desktop\基哥程設二作業\hw7\Project1\HugeInteger.h(167): warning C4715: 'HugeInteger<list<unsigned int> >::operator<': 不是所有控制路徑都傳回值
+C:\Users\User\Desktop\基哥程設二作業\hw7\Project1\HugeInteger.h(167): warning C4715: 'HugeInteger<vector<unsigned short> >::operator<': 不是所有控制路徑都傳回值
+C:\Users\User\Desktop\基哥程設二作業\hw7\Project1\HugeInteger.h(167): warning C4715: 'HugeInteger<list<int> >::operator<': 不是所有控制路徑都傳回值
+C:\Users\User\Desktop\基哥程設二作業\hw7\Project1\HugeInteger.h(167): warning C4715: 'HugeInteger<vector<short> >::operator<': 不是所有控制路徑都傳回值
+C:\Users\User\Desktop\基哥程設二作業\hw7\Project1\HugeInteger.h(167): warning C4715: 'HugeInteger<list<short> >::operator<': 不是所有控制路徑都傳回值
+C:\Users\User\Desktop\基哥程設二作業\hw7\Project1\HugeInteger.h(167): warning C4715: 'HugeInteger<list<unsigned short> >::operator<': 不是所有控制路徑都傳回值
+  Project1.vcxproj -> C:\Users\User\Desktop\基哥程設二作業\hw7\Project1\Debug\Project1.exe

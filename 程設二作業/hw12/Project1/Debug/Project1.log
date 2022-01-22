@@ -1,0 +1,13 @@
+﻿  Booking.cpp
+C:\Users\User\Desktop\基哥程設二作業\hw12\Project1\Booking.cpp(85,20): warning C4018: '<': signed/unsigned 不相符
+C:\Users\User\Desktop\基哥程設二作業\hw12\Project1\Booking.cpp(102,11): warning C4018: '<': signed/unsigned 不相符
+C:\Users\User\Desktop\基哥程設二作業\hw12\Project1\Booking.cpp(145,12): warning C4244: '引數': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+C:\Users\User\Desktop\基哥程設二作業\hw12\Project1\Booking.cpp(39,86): warning C4101: 'departureTimesTrain': 未參考的區域變數
+  BookingHistory.cpp
+C:\Users\User\Desktop\基哥程設二作業\hw12\Project1\BookingHistory.cpp(40,19): warning C4018: '<': signed/unsigned 不相符
+C:\Users\User\Desktop\基哥程設二作業\hw12\Project1\BookingHistory.cpp(168,20): warning C4018: '<': signed/unsigned 不相符
+  main.cpp
+  ReservationRecord.cpp
+C:\Users\User\Desktop\基哥程設二作業\hw12\Project1\ReservationRecord.cpp(103,11): warning C4244: '正在初始化': 將 'std::streamoff' 轉換為 'int'，由於類型不同，可能導致資料遺失
+  正在產生程式碼...
+  Project1.vcxproj -> C:\Users\User\Desktop\基哥程設二作業\hw12\Project1\Debug\Project1.exe

@@ -1,0 +1,11 @@
+﻿  Assignment 9-3.cpp
+C:\Users\User\Desktop\基哥程設二作業\hw9\Deque.h(623,2): warning C4018: '<': signed/unsigned 不相符
+C:\Users\User\Desktop\基哥程設二作業\hw9\Deque.h(619): message : 編譯 類別 樣板 成員函式 'void deque<unsigned short>::doubleMapSize(void)' 期間
+C:\Users\User\Desktop\基哥程設二作業\hw9\Deque.h(570): message : 請參考正在進行編譯的函式 樣板 具現化 'void deque<unsigned short>::doubleMapSize(void)'
+C:\Users\User\Desktop\基哥程設二作業\hw9\9-3\Project1\HugeInteger 9-3.h(67): message : 請參考正在進行編譯的 類別 樣板 具現化 'deque<unsigned short>'
+C:\Users\User\Desktop\基哥程設二作業\hw9\9-3\Project1\Assignment 9-3.cpp(36): message : 請參考正在進行編譯的 類別 樣板 具現化 'HugeInteger<deque<unsigned short>>'
+C:\Users\User\Desktop\基哥程設二作業\hw9\Deque.h(355,2): warning C4018: '<': signed/unsigned 不相符
+C:\Users\User\Desktop\基哥程設二作業\hw9\Deque.h(350): message : 編譯 類別 樣板 成員函式 'deque<unsigned short> &deque<unsigned short>::operator =(const deque<unsigned short> &)' 期間
+C:\Users\User\Desktop\基哥程設二作業\hw9\9-3\Project1\HugeInteger 9-3.h(111): message : 請參考正在進行編譯的函式 樣板 具現化 'deque<unsigned short> &deque<unsigned short>::operator =(const deque<unsigned short> &)'
+C:\Users\User\Desktop\基哥程設二作業\hw9\Deque.h(363,1): warning C4018: '<': signed/unsigned 不相符
+  Project1.vcxproj -> C:\Users\User\Desktop\基哥程設二作業\hw9\9-3\Project1\Debug\Project1.exe

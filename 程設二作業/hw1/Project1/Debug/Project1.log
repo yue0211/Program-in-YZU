@@ -1,0 +1,5 @@
+﻿  Vector - Student ID - hw1.cpp
+C:\Users\User\Desktop\基哥程設二作業\hw1\Project1\Vector - Student ID - hw1.cpp(71,22): warning C4018: '>': signed/unsigned 不相符
+C:\Users\User\Desktop\基哥程設二作業\hw1\Project1\Vector - Student ID - hw1.cpp(108,25): warning C4018: '<': signed/unsigned 不相符
+C:\Users\User\Desktop\基哥程設二作業\hw1\Project1\Vector - Student ID - hw1.cpp(121,34): warning C4018: '<': signed/unsigned 不相符
+  Project1.vcxproj -> C:\Users\User\Desktop\基哥程設二作業\hw1\Project1\Debug\Project1.exe
