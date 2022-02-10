@@ -1,6 +1,0 @@
-﻿  Assignment 8.cpp
-C:\Users\User\Desktop\基哥程設二作業\hw8\Project1\Deque.h(576,2): warning C4018: '<': signed/unsigned 不相符
-C:\Users\User\Desktop\基哥程設二作業\hw8\Project1\Deque.h(558): message : 編譯 類別 樣板 成員函式 'void deque<int>::doubleMapSize(void)' 期間
-C:\Users\User\Desktop\基哥程設二作業\hw8\Project1\Deque.h(508): message : 請參考正在進行編譯的函式 樣板 具現化 'void deque<int>::doubleMapSize(void)'
-C:\Users\User\Desktop\基哥程設二作業\hw8\Project1\Assignment 8.cpp(51): message : 請參考正在進行編譯的 類別 樣板 具現化 'deque<int>'
-  Project1.vcxproj -> C:\Users\User\Desktop\基哥程設二作業\hw8\Project1\Debug\Project1.exe
