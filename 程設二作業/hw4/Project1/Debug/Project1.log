@@ -1,8 +1,0 @@
-﻿  String - Student ID - hw4.cpp
-C:\Users\User\Desktop\基哥程設二作業\hw4\Project1\String - Student ID - hw4.cpp(21,22): warning C4018: '<': signed/unsigned 不相符
-C:\Users\User\Desktop\基哥程設二作業\hw4\Project1\String - Student ID - hw4.cpp(32,22): warning C4018: '<': signed/unsigned 不相符
-C:\Users\User\Desktop\基哥程設二作業\hw4\Project1\String - Student ID - hw4.cpp(63,28): warning C4018: '<': signed/unsigned 不相符
-C:\Users\User\Desktop\基哥程設二作業\hw4\Project1\String - Student ID - hw4.cpp(219,33): warning C4244: '=': 將 'double' 轉換為 'string::size_type'，由於類型不同，可能導致資料遺失
-C:\Users\User\Desktop\基哥程設二作業\hw4\Project1\String - Student ID - hw4.cpp(229,26): warning C4018: '<': signed/unsigned 不相符
-C:\Users\User\Desktop\基哥程設二作業\hw4\Project1\String - Student ID - hw4.cpp(240,34): warning C4018: '<': signed/unsigned 不相符
-  Project1.vcxproj -> C:\Users\User\Desktop\基哥程設二作業\hw4\Project1\Debug\Project1.exe
