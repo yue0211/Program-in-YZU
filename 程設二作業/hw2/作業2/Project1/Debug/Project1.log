@@ -1,0 +1,8 @@
+﻿  String - Student ID - hw2.cpp
+C:\Users\User\Desktop\基哥程設二作業\hw2\作業2\Project1\String - Student ID - hw2.cpp(17,23): warning C4018: '<': signed/unsigned 不相符
+C:\Users\User\Desktop\基哥程設二作業\hw2\作業2\Project1\String - Student ID - hw2.cpp(29,23): warning C4018: '<': signed/unsigned 不相符
+C:\Users\User\Desktop\基哥程設二作業\hw2\作業2\Project1\String - Student ID - hw2.cpp(167,22): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\User\Desktop\基哥程設二作業\hw2\作業2\Project1\String - Student ID - hw2.cpp(169,22): warning C4018: '<': signed/unsigned 不相符
+C:\Users\User\Desktop\基哥程設二作業\hw2\作業2\Project1\String - Student ID - hw2.cpp(174,27): warning C4018: '<': signed/unsigned 不相符
+C:\Users\User\Desktop\基哥程設二作業\hw2\作業2\Project1\String - Student ID - hw2.cpp(185,28): warning C4018: '<': signed/unsigned 不相符
+  Project1.vcxproj -> C:\Users\User\Desktop\基哥程設二作業\hw2\作業2\Project1\Debug\Project1.exe
