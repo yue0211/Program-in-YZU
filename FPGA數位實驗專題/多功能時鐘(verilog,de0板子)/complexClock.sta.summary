@@ -1,0 +1,257 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'half'
+Slack : -6.015
+TNS   : -241.922
+
+Type  : Slow 1200mV 85C Model Setup 'switch[0]'
+Slack : -4.106
+TNS   : -180.283
+
+Type  : Slow 1200mV 85C Model Setup 'debouncing:A1|FF[3]'
+Slack : -3.133
+TNS   : -74.534
+
+Type  : Slow 1200mV 85C Model Setup 'counter[13]'
+Slack : -3.026
+TNS   : -22.848
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -2.835
+TNS   : -51.294
+
+Type  : Slow 1200mV 85C Model Setup 'button1'
+Slack : -0.285
+TNS   : -0.568
+
+Type  : Slow 1200mV 85C Model Setup 'button2'
+Slack : -0.248
+TNS   : -0.248
+
+Type  : Slow 1200mV 85C Model Hold 'switch[0]'
+Slack : -3.720
+TNS   : -151.726
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : -1.230
+TNS   : -6.299
+
+Type  : Slow 1200mV 85C Model Hold 'counter[13]'
+Slack : -0.742
+TNS   : -0.898
+
+Type  : Slow 1200mV 85C Model Hold 'button2'
+Slack : -0.715
+TNS   : -1.411
+
+Type  : Slow 1200mV 85C Model Hold 'half'
+Slack : 0.032
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'debouncing:A1|FF[3]'
+Slack : 0.114
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'button1'
+Slack : 0.216
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'switch[0]'
+Slack : -3.000
+TNS   : -211.458
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -30.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'button1'
+Slack : -3.000
+TNS   : -7.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'button2'
+Slack : -3.000
+TNS   : -5.111
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'half'
+Slack : -1.000
+TNS   : -55.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'debouncing:A1|FF[3]'
+Slack : -1.000
+TNS   : -32.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'counter[13]'
+Slack : -1.000
+TNS   : -12.000
+
+Type  : Slow 1200mV 0C Model Setup 'half'
+Slack : -5.389
+TNS   : -214.542
+
+Type  : Slow 1200mV 0C Model Setup 'switch[0]'
+Slack : -3.580
+TNS   : -136.808
+
+Type  : Slow 1200mV 0C Model Setup 'debouncing:A1|FF[3]'
+Slack : -2.810
+TNS   : -66.076
+
+Type  : Slow 1200mV 0C Model Setup 'counter[13]'
+Slack : -2.592
+TNS   : -19.179
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -2.503
+TNS   : -43.829
+
+Type  : Slow 1200mV 0C Model Setup 'button1'
+Slack : -0.260
+TNS   : -0.517
+
+Type  : Slow 1200mV 0C Model Setup 'button2'
+Slack : -0.117
+TNS   : -0.117
+
+Type  : Slow 1200mV 0C Model Hold 'switch[0]'
+Slack : -3.264
+TNS   : -131.760
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : -1.155
+TNS   : -6.287
+
+Type  : Slow 1200mV 0C Model Hold 'counter[13]'
+Slack : -0.632
+TNS   : -0.727
+
+Type  : Slow 1200mV 0C Model Hold 'button2'
+Slack : -0.561
+TNS   : -1.114
+
+Type  : Slow 1200mV 0C Model Hold 'half'
+Slack : 0.136
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'button1'
+Slack : 0.205
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'debouncing:A1|FF[3]'
+Slack : 0.226
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'switch[0]'
+Slack : -3.000
+TNS   : -185.772
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -30.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'button1'
+Slack : -3.000
+TNS   : -7.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'button2'
+Slack : -3.000
+TNS   : -5.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'half'
+Slack : -1.000
+TNS   : -55.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'debouncing:A1|FF[3]'
+Slack : -1.000
+TNS   : -32.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'counter[13]'
+Slack : -1.000
+TNS   : -12.000
+
+Type  : Fast 1200mV 0C Model Setup 'half'
+Slack : -3.558
+TNS   : -136.265
+
+Type  : Fast 1200mV 0C Model Setup 'switch[0]'
+Slack : -2.050
+TNS   : -61.445
+
+Type  : Fast 1200mV 0C Model Setup 'debouncing:A1|FF[3]'
+Slack : -1.673
+TNS   : -37.155
+
+Type  : Fast 1200mV 0C Model Setup 'counter[13]'
+Slack : -1.241
+TNS   : -8.070
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -1.156
+TNS   : -17.959
+
+Type  : Fast 1200mV 0C Model Setup 'button2'
+Slack : 0.322
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'button1'
+Slack : 0.369
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'switch[0]'
+Slack : -2.377
+TNS   : -112.100
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : -0.776
+TNS   : -4.997
+
+Type  : Fast 1200mV 0C Model Hold 'counter[13]'
+Slack : -0.503
+TNS   : -0.648
+
+Type  : Fast 1200mV 0C Model Hold 'button2'
+Slack : -0.478
+TNS   : -0.916
+
+Type  : Fast 1200mV 0C Model Hold 'half'
+Slack : -0.101
+TNS   : -0.101
+
+Type  : Fast 1200mV 0C Model Hold 'button1'
+Slack : 0.070
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'debouncing:A1|FF[3]'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'switch[0]'
+Slack : -3.000
+TNS   : -118.965
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -31.505
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'button1'
+Slack : -3.000
+TNS   : -7.846
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'button2'
+Slack : -3.000
+TNS   : -5.710
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'half'
+Slack : -1.000
+TNS   : -55.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'debouncing:A1|FF[3]'
+Slack : -1.000
+TNS   : -32.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'counter[13]'
+Slack : -1.000
+TNS   : -12.000
+
+------------------------------------------------------------
