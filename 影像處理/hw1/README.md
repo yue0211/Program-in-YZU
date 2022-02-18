@@ -10,3 +10,9 @@
  * C++
  
 ## 執行方式:
+
+## 參考資料:
+ * https://answers.opencv.org/question/36288/how-to-know-grayscale-or-color-img-loaded/
+ * https://openweather.blogspot.com/2019/09/opencv-clonecopyto-opencvclonecopyto.html
+ * https://cloud.tencent.com/developer/article/1470529
+ * http://yzucs362.blogspot.com
