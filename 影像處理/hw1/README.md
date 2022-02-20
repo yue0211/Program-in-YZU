@@ -20,6 +20,8 @@
      * **將每個像素的R值，變成 255。**
         ![image](https://user-images.githubusercontent.com/82385589/154866699-4a97216a-c73b-4048-a559-81d8097553ec.png)
      * **將每個像素的R值，變成 0。**
+        ![image](https://user-images.githubusercontent.com/82385589/154866886-54f1cccd-bd89-41e9-953a-f7c65f03baa2.png)
+
        
 ## 參考資料:
  * https://answers.opencv.org/question/36288/how-to-know-grayscale-or-color-img-loaded/
