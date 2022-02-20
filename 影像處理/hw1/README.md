@@ -3,14 +3,26 @@
  2. 如果輸入圖像是灰階圖像，改變每個像素的灰階值。
  3. 如果輸入圖像是全彩圖像(RGB)，則只改變每個像素的 R 值。
  4. 修改後的像素值仍然要介於 0 ~ 255 (注意!!數值不要溢位)
+ 
 ## 使用環境/語言:
  * Windows10
  * Visual Studio 2019
  * Opencv-4.3.0
  * C++
  
-## 執行方式:
+## 特殊程式片段註解/實作方法:
+ 
+## 執行方式/畫面:
+ * 輸入灰階圖:
+     * 範例:將每個像素的灰階值，變成 255。
+     * 範例:將每個像素的灰階值，變成 0。
+ * 輸入全彩圖像:
+     * 範例:將每個像素的R值，變成 255。
+       ![image](https://user-images.githubusercontent.com/82385589/154866699-4a97216a-c73b-4048-a559-81d8097553ec.png)
+     * 範例:將每個像素的R值，變成 0。
+       
 
+ * 輸入全彩圖:
 ## 參考資料:
  * https://answers.opencv.org/question/36288/how-to-know-grayscale-or-color-img-loaded/
  * https://openweather.blogspot.com/2019/09/opencv-clonecopyto-opencvclonecopyto.html
