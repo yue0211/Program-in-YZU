@@ -18,7 +18,7 @@
      * **將每個像素的灰階值，加上100(像素變成255會變全白)。**
         ![image](https://user-images.githubusercontent.com/82385589/154868450-9a432518-131e-4b95-a6c4-b89f27bf0c90.png)
      * **將每個像素的灰階值，減掉100(像素變成0會變全黑)。**
-        ![image](https://user-images.githubusercontent.com/82385589/154872194-def38bcd-3c89-4c5e-b22a-2368513277aa.png)
+        ![image](https://user-images.githubusercontent.com/82385589/154873139-60da3c46-f87e-482e-9087-e18fd7f6cec4.png)
  * **輸入全彩圖:**
      * **將每個像素的R值，變成 255。(輸入255)**
         ![image](https://user-images.githubusercontent.com/82385589/154866699-4a97216a-c73b-4048-a559-81d8097553ec.png)
