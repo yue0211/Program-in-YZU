@@ -10,8 +10,16 @@
  * Opencv-4.3.0
  * C++
  
-## 特殊程式片段註解/實作方法:
- 
+## 實作方法:
+ 1. 輸入圖片路徑後，會檢查**是否可讀取到圖片內容**，若不行，則重新輸入圖片路徑。
+ 2. 輸入欲增加的數值。
+ 3. 判斷輸入的圖片是屬於**灰階圖像**還是**全彩圖像**。
+ 4. 若是**灰階圖像**，則改變**灰階圖像**的每個像素的灰階值，再將**原圖像**和**灰階圖像**印出。
+ 5. 若是**全彩圖像(RGB)**，則只改變每個像素的 R 值，再將**原圖像**和**全彩圖像**印出。
+ 6. 印完圖像後，可讓使用者選擇**是否要繼續輸入像素，觀察同張圖片不同像素的效果**，若輸入^z，則回到**第二點的流程**。
+ 7. **第一點的流程**輸入0，則終止程式
+
+
 ## 執行方式/畫面:
 
  * **輸入灰階圖:**
@@ -26,7 +34,7 @@
         ![image](https://user-images.githubusercontent.com/82385589/154866886-54f1cccd-bd89-41e9-953a-f7c65f03baa2.png)
 
  * **影片:**
-     ![錄影](https://user-images.githubusercontent.com/82385589/155048215-b1fe8bb3-2a1d-459b-9a2c-3e18834076ed.gif)
+     
 ## 參考資料:
  * https://answers.opencv.org/question/36288/how-to-know-grayscale-or-color-img-loaded/
  * https://openweather.blogspot.com/2019/09/opencv-clonecopyto-opencvclonecopyto.html
