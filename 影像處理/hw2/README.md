@@ -28,7 +28,6 @@
         ![image](https://user-images.githubusercontent.com/82385589/155843141-0c8a3584-cb9b-440d-8a00-19d2bf8e13b1.png)
      
 ## 參考資料:
- * https://answers.opencv.org/question/36288/how-to-know-grayscale-or-color-img-loaded/
- * https://openweather.blogspot.com/2019/09/opencv-clonecopyto-opencvclonecopyto.html
- * https://cloud.tencent.com/developer/article/1470529
- * http://yzucs362.blogspot.com
+ * https://blog.csdn.net/xingchenbingbuyu/article/details/50719569
+ * https://docs.opencv.org/3.4/da/d6a/tutorial_trackbar.html
+ 
