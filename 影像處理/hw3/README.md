@@ -36,6 +36,6 @@
    ![image](https://user-images.githubusercontent.com/82385589/158057591-49867b37-dd48-4060-aa2f-3ad282d01af2.png)
 
 ## 參考資料:
- * https://blog.csdn.net/xingchenbingbuyu/article/details/50719569
- * https://docs.opencv.org/3.4/da/d6a/tutorial_trackbar.html
+ * https://blog.csdn.net/u012566751/article/details/77046445
+ * https://docs.opencv.org/4.2.0/d2/d2c/tutorial_sobel_derivatives.html
  
