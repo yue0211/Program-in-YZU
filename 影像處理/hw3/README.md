@@ -20,12 +20,14 @@
 ## 執行方式/畫面:
 
  * **原圖:**
-        ![image](https://user-images.githubusercontent.com/82385589/155843112-12511b61-f6d2-4447-91d1-9269b9adcbd0.png)
- * **整張圖像旋轉的圖:**
-        ![image](https://user-images.githubusercontent.com/82385589/155843124-fac961c0-21bc-4352-b911-f581afb4ab22.png)
- * **中心內切圓區域旋轉的圖:**
-        ![image](https://user-images.githubusercontent.com/82385589/155843141-0c8a3584-cb9b-440d-8a00-19d2bf8e13b1.png)
-     
+        ![image](https://user-images.githubusercontent.com/82385589/158057460-a3aeefe4-91fa-4d86-be03-156be504b374.png)
+ * **灰階圖(高斯模糊處理過):**
+        ![image](https://user-images.githubusercontent.com/82385589/158057482-b9af84bc-16c7-47e6-889f-cc9fd7202510.png)
+ * **邊緣偵測的圖:**
+        ![image](https://user-images.githubusercontent.com/82385589/158057497-6945b02b-781b-4228-a075-81c3fb341f76.png)
+ * **素描圖:**    
+        ![image](https://user-images.githubusercontent.com/82385589/158057591-49867b37-dd48-4060-aa2f-3ad282d01af2.png)
+
 ## 參考資料:
  * https://blog.csdn.net/xingchenbingbuyu/article/details/50719569
  * https://docs.opencv.org/3.4/da/d6a/tutorial_trackbar.html
