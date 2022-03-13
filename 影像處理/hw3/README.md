@@ -18,6 +18,7 @@
  8. **第一點的流程**輸入0，則終止程式。
 
 ## 執行方式/畫面:
+
  * **原圖:**
    ![image](https://user-images.githubusercontent.com/82385589/158057460-a3aeefe4-91fa-4d86-be03-156be504b374.png)
  * **灰階圖(高斯模糊處理過):**
