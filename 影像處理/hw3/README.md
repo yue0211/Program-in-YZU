@@ -1,10 +1,10 @@
 ## 作業說明:
-撰寫一個程式，以灰階模式讀取一張圖像 imread(path, IMREAD_GRAYSCALE)
+撰寫一個程式，以**灰階模式讀取一張圖像** imread(path, IMREAD_GRAYSCALE)
 1. 利用 Sobel Operators 偵測並輸出邊緣成分圖
 2. 設計一個類似素描線條的自畫像圖案。
  
 ## 使用環境/語言:
- * Windows11
+ * Windows 11
  * Visual Studio 2019
  * Opencv-4.3.0
  * C++
