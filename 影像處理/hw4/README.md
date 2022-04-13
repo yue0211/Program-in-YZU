@@ -23,10 +23,10 @@
 
  * **原圖:**
         ![image](https://user-images.githubusercontent.com/82385589/155843112-12511b61-f6d2-4447-91d1-9269b9adcbd0.png)
- * **整張圖像旋轉的圖:**
-        ![image](https://user-images.githubusercontent.com/82385589/155843124-fac961c0-21bc-4352-b911-f581afb4ab22.png)
+ * **灰階圖:**
+        ![image](https://user-images.githubusercontent.com/82385589/163251330-6809baaa-b9cc-41fa-ade1-cf414aca5d49.png)
  * **中心內切圓區域旋轉的圖:**
-        ![image](https://user-images.githubusercontent.com/82385589/155843141-0c8a3584-cb9b-440d-8a00-19d2bf8e13b1.png)
+        ![image](https://user-images.githubusercontent.com/82385589/163251424-e0c8cd73-ab75-4420-b6f7-9682d0e5da41.png)
 
 ## 參考資料:
 * https://blog.csdn.net/cyf15238622067/article/details/87918125
