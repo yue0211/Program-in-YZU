@@ -21,12 +21,16 @@
 
 ## 執行方式/畫面:
 
- * **原圖:**
-        ![image](https://user-images.githubusercontent.com/82385589/155843112-12511b61-f6d2-4447-91d1-9269b9adcbd0.png)
- * **灰階圖:**
-        ![image](https://user-images.githubusercontent.com/82385589/163251330-6809baaa-b9cc-41fa-ade1-cf414aca5d49.png)
- * **中心內切圓區域旋轉的圖:**
-        ![image](https://user-images.githubusercontent.com/82385589/163251424-e0c8cd73-ab75-4420-b6f7-9682d0e5da41.png)
+![image](https://user-images.githubusercontent.com/82385589/155843112-12511b61-f6d2-4447-91d1-9269b9adcbd0.png)
+![image](https://user-images.githubusercontent.com/82385589/163251330-6809baaa-b9cc-41fa-ade1-cf414aca5d49.png)
+![image](https://user-images.githubusercontent.com/82385589/163251424-e0c8cd73-ab75-4420-b6f7-9682d0e5da41.png)
+![image](https://user-images.githubusercontent.com/82385589/163251788-d9b65927-d687-4d32-9442-4c028aaa9dd1.png)
+![image](https://user-images.githubusercontent.com/82385589/163251848-e2d97f36-e5a9-467c-a648-be3afceb0da5.png)
+![image](https://user-images.githubusercontent.com/82385589/163251886-ac5cbcf2-d0e7-4580-9036-cc5d57f3a743.png)
+
+
+
+
 
 ## 參考資料:
 * https://blog.csdn.net/cyf15238622067/article/details/87918125
