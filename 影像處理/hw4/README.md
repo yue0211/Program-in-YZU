@@ -22,9 +22,9 @@
 ## 執行方式/畫面:
 
 ### 原圖:
-![image](https://user-images.githubusercontent.com/82385589/155843112-12511b61-f6d2-4447-91d1-9269b9adcbd0.png)
+![image](https://user-images.githubusercontent.com/82385589/163253572-c2e548a0-b0fd-4565-b19a-b0dc10e4692a.png)
 ### 灰階圖:
-![image](https://user-images.githubusercontent.com/82385589/163251330-6809baaa-b9cc-41fa-ade1-cf414aca5d49.png)
+![image](https://user-images.githubusercontent.com/82385589/163253661-63c0540d-88d9-46c9-8a2a-85cc528eb823.png)
 ### zero-padded image:
 ![image](https://user-images.githubusercontent.com/82385589/163251424-e0c8cd73-ab75-4420-b6f7-9682d0e5da41.png)
 ### zero-padded image multiply by (-1)^(x+y):
