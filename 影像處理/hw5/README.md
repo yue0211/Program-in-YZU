@@ -17,18 +17,10 @@
 
 
 ## 執行方式/畫面:
-
- * **原圖:**
-     ![image](https://user-images.githubusercontent.com/82385589/167606748-052e0b0c-8538-4d73-aa71-ff2ab2ce1a69.png)
-        
- * **HSI圖:**
-     ![image](https://user-images.githubusercontent.com/82385589/167606833-4cfca920-51ca-4a3f-8205-26ff745f2c43.png)
-    
- * **二值化的圖:**
-     ![image](https://user-images.githubusercontent.com/82385589/167607071-a88d16bc-5066-4868-9783-11e938ea61ad.png)
-     
-* **結果:**
-     ![image](https://user-images.githubusercontent.com/82385589/167607215-120f3be4-1e18-4255-a08a-2a76e7915b0c.png)
+![image](https://user-images.githubusercontent.com/82385589/167606748-052e0b0c-8538-4d73-aa71-ff2ab2ce1a69.png)
+![image](https://user-images.githubusercontent.com/82385589/167606833-4cfca920-51ca-4a3f-8205-26ff745f2c43.png)
+![image](https://user-images.githubusercontent.com/82385589/167607071-a88d16bc-5066-4868-9783-11e938ea61ad.png)
+![image](https://user-images.githubusercontent.com/82385589/167607215-120f3be4-1e18-4255-a08a-2a76e7915b0c.png)
      
 ## 參考資料:
 * https://bambovc.com/index.php/archives/43/
