@@ -10,7 +10,7 @@
  1. 主要有兩個檔案紀錄圖片的資訊:**ColorDatabase.txt**、**ImageColor.txt**
  2. 程式會將**圖片出現過的顏色**記錄起來，而且**每種顏色都會對應到一組ID**，並將這些資訊存進**ColorDatabase.txt**。
  3. 程式會紀錄**圖片中的不同顏色出現的狀況**，並將值存到**ImageColor.txt**。
- 4. 舉例:假設圖片第一列的pixes分別是:白白黑紅，由於**在ColorDatabase.txt中**，白色是代表0號，黑色代表1號，紅色代表2號，因此**在ImageColor.txt中**紀錄的格式會是:**0:2 1:1 2:2**，這代表在第一列中，白色連續出現2次，緊接著黑色出現1次，再來紅色會出現1次。
+ 4. 舉例:假設圖片第一列的pixes分別是:白白黑紅，由於**在ColorDatabase.txt中**，白色是代表0號，黑色代表1號，紅色代表2號，因此**在ImageColor.txt中**紀錄的格式會是:**0:2 1:1 2:1**，這代表在第一列中，白色連續出現2次，緊接著黑色出現1次，再來紅色會出現1次。
  5. 程式壓縮圖片時，會產生**ColorDatabase.txt 和 ImageColor.txt**紀錄圖片資訊。
  6. 圖片壓縮率的計算方式:**(圖片byte數) / [(ColorDatabase.txt 的byte數)+(ImageColor.txt的byte數)]**
 
