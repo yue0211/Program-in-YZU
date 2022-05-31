@@ -16,7 +16,7 @@
 
 ## 執行方式/畫面:
 
-**解壓縮的結果:(非原圖比例，原圖太大)**
+### 解壓縮的結果:(非原圖比例，原圖太大)
 ![image](https://user-images.githubusercontent.com/82385589/171223046-a425de26-43fa-477b-8646-49b7837aa84d.png)
 ![image](https://user-images.githubusercontent.com/82385589/171223324-8a54f040-cd9e-4728-af3f-10fbf0e028bf.png)
 ![image](https://user-images.githubusercontent.com/82385589/171223509-3721b7ef-d026-46fc-86b0-aab11d03328a.png)
