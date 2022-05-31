@@ -20,14 +20,17 @@
 ![image](https://user-images.githubusercontent.com/82385589/171224846-e8cf18f2-f315-4fc5-aac1-9a04289d8360.png)
 ![image](https://user-images.githubusercontent.com/82385589/171225205-28c4fb1f-b595-43be-8f77-7b92c796b9ef.png)
 ![image](https://user-images.githubusercontent.com/82385589/171225479-ac7756ca-621f-4e85-8690-11d627394134.png)
-
-
-
+![image](https://user-images.githubusercontent.com/82385589/171225614-b6206c9a-b184-4211-bd6a-c85a1e4c2911.png)
 
 ### 解壓縮的結果:(非原圖比例，原圖太大)
 ![image](https://user-images.githubusercontent.com/82385589/171223046-a425de26-43fa-477b-8646-49b7837aa84d.png)
 ![image](https://user-images.githubusercontent.com/82385589/171223324-8a54f040-cd9e-4728-af3f-10fbf0e028bf.png)
 ![image](https://user-images.githubusercontent.com/82385589/171223509-3721b7ef-d026-46fc-86b0-aab11d03328a.png)
+
+### 檔案資訊:
+![image](https://user-images.githubusercontent.com/82385589/171226014-6cc332d3-7d0a-4d3e-8e30-fd196704b752.png)
+![image](https://user-images.githubusercontent.com/82385589/171226066-c4ebcd71-a962-45d4-9367-60b063403865.png)
+![image](https://user-images.githubusercontent.com/82385589/171226161-8ea2befb-d408-44d1-ab47-c5fe24809be2.png)
 
      
 
