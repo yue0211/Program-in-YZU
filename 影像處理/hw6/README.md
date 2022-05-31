@@ -16,6 +16,14 @@
 
 ## 執行方式/畫面:
 
+### 壓縮率:
+![image](https://user-images.githubusercontent.com/82385589/171224846-e8cf18f2-f315-4fc5-aac1-9a04289d8360.png)
+![image](https://user-images.githubusercontent.com/82385589/171225205-28c4fb1f-b595-43be-8f77-7b92c796b9ef.png)
+![image](https://user-images.githubusercontent.com/82385589/171225479-ac7756ca-621f-4e85-8690-11d627394134.png)
+
+
+
+
 ### 解壓縮的結果:(非原圖比例，原圖太大)
 ![image](https://user-images.githubusercontent.com/82385589/171223046-a425de26-43fa-477b-8646-49b7837aa84d.png)
 ![image](https://user-images.githubusercontent.com/82385589/171223324-8a54f040-cd9e-4728-af3f-10fbf0e028bf.png)
