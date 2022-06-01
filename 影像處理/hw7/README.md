@@ -14,8 +14,8 @@
 
      
 ## 參考資料:
-https://shengyu7697.github.io/python-opencv-erode-dilate/
-https://ithelp.ithome.com.tw/articles/10246270
-https://blog.csdn.net/u012566751/article/details/77046445
-https://docs.opencv.org/4.x/d3/de5/tutorial_js_houghcircles.html
+* https://shengyu7697.github.io/python-opencv-erode-dilate/
+* https://ithelp.ithome.com.tw/articles/10246270
+* https://blog.csdn.net/u012566751/article/details/77046445
+* https://docs.opencv.org/4.x/d3/de5/tutorial_js_houghcircles.html
 
