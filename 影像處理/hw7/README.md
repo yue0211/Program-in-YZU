@@ -15,3 +15,4 @@
      
 ## 參考資料:
 https://shengyu7697.github.io/python-opencv-erode-dilate/
+https://ithelp.ithome.com.tw/articles/10246270
