@@ -27,7 +27,7 @@
 ![image](https://user-images.githubusercontent.com/82385589/171550726-8122ca22-8249-4d43-9372-b8e9bab07fe6.png)
 ![image](https://user-images.githubusercontent.com/82385589/171550765-e337e9da-85e8-4f9c-97ba-3c23b4873286.png)
 
-### IMG_5704.JPG:
+### IMG_5704.JPG:(原圖:31顆圍棋，偵測:31顆圍棋)
 ![image](https://user-images.githubusercontent.com/82385589/171550829-b2cb4f49-9dc1-46ae-a405-3e61df4d44aa.png)
 ![image](https://user-images.githubusercontent.com/82385589/171550870-fcab9dac-41c4-4fb6-9373-bc93ac48cc51.png)
 
