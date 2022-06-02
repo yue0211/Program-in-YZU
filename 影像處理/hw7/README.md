@@ -19,8 +19,18 @@
 
 
 ## 執行方式/畫面:
+### IMG_5702.JPG:(原圖:24顆圍棋，偵測:23顆圍棋)
+![image](https://user-images.githubusercontent.com/82385589/171550627-8d1ddcf6-c30f-484a-8243-06c7d917332e.png)
+![image](https://user-images.githubusercontent.com/82385589/171550575-49721978-d5e3-4a1a-b7f7-cf837605a784.png)
 
-     
+### IMG_5703.JPG:(原圖:31顆圍棋，偵測:30顆圍棋)
+![image](https://user-images.githubusercontent.com/82385589/171550726-8122ca22-8249-4d43-9372-b8e9bab07fe6.png)
+![image](https://user-images.githubusercontent.com/82385589/171550765-e337e9da-85e8-4f9c-97ba-3c23b4873286.png)
+
+### IMG_5704.JPG:
+![image](https://user-images.githubusercontent.com/82385589/171550829-b2cb4f49-9dc1-46ae-a405-3e61df4d44aa.png)
+![image](https://user-images.githubusercontent.com/82385589/171550870-fcab9dac-41c4-4fb6-9373-bc93ac48cc51.png)
+
 ## 參考資料:
 * https://shengyu7697.github.io/python-opencv-erode-dilate/
 * https://ithelp.ithome.com.tw/articles/10246270
