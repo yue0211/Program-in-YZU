@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.InformationFragment"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:id="@+id/Anime"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/AnimeInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="新番資訊" />
+
+        <RadioGroup
+            android:id="@+id/season_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/AnimeInfo"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/this_season"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="本季資訊"
+                android:textColor="@color/b_3"
+                android:textSize="18dp" />
+
+            <RadioButton
+                android:id="@+id/next_season"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="下季資訊"
+                android:textColor="@color/b_3"
+                android:textSize="18dp" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/Anime_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/season_time"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="詳細資訊"
+                android:textColor="@color/b_3"
+                android:textSize="18dp" />
+
+            <RadioButton
+                android:id="@+id/calendar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="更新時間"
+                android:textColor="@color/b_3"
+                android:textSize="18dp" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/Anime_submit"
+            android:layout_width="55dp"
+            android:layout_height="75dp"
+            android:layout_below="@+id/season_time"
+            android:layout_marginTop="-31dp"
+            android:layout_toRightOf="@+id/season_time"
+            android:layout_marginLeft="31dp"
+            android:text="確\n認"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/oldAnimeInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="漫畫分類"
+        android:layout_below="@id/Anime"
+        android:layout_marginTop="14dp"/>
+
+    <RelativeLayout
+        android:id="@+id/oldAnime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Anime"
+        android:layout_marginTop="14dp">
+
+
+        <ScrollView
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:scrollbars="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/oldAnimeInfo"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/cell_shape">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <Button
+                        android:id="@+id/comic_all"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="全部"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/comic_nekketsu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="熱血"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/comic_renai"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="戀愛"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <Button
+                        android:id="@+id/comic_gakuen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="校園"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/comic_yuri"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="百合"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/comic_bl"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="耽美"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="120dp"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <Button
+                        android:id="@+id/comic_bouken"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="冒險"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/comic_haaremu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="後宮"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/comic_sf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="科幻"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="180dp"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <Button
+                        android:id="@+id/comic_sensou"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="戰爭"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/comic_suspense"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="懸疑"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/comic_suiri"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="推理"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="240dp"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <Button
+                        android:id="@+id/comic_haha"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="搞笑"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/comic_miracle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="奇幻"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/comic_mahou"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="魔法"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="300dp"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <Button
+                        android:id="@+id/comic_kyoufu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="恐怖"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/comic_kishin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="神鬼"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/comic_rekishi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="歷史"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="360dp"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <Button
+                        android:id="@+id/comic_doujin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="同人"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/comic_undou"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="運動"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/comic_shinshi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="紳士"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="420dp"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <Button
+                        android:id="@+id/comic_kikou"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="機甲"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/comic_H"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="18+"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/comic_other"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="其他"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/oldAnime"
+        android:layout_marginTop="0dp">
+
+        <TextView
+            android:id="@+id/gameTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="steam遊戲特價" />
+
+        <RadioGroup
+            android:id="@+id/game_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gameTitle"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/people_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="熱門度優先"
+                android:textColor="@color/b_3"
+                android:textSize="18dp" />
+
+            <RadioButton
+                android:id="@+id/price_search"
+                android:layout_width="137dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="折扣度優先"
+                android:textColor="@color/b_3"
+                android:textSize="18dp" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/game_submit"
+            android:layout_width="84dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/game_c"
+            android:text="確認"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/other_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/game"
+        android:layout_marginTop="14dp"
+        android:text="便利機能" />
+
+    <RelativeLayout
+        android:id="@+id/other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/other_title">
+
+
+        <ScrollView
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:scrollbars="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/other"
+                android:background="@drawable/cell_shape"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/food_panda"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="熊貓外送"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/surugaya"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="駿河屋"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/toranoana"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="虎之穴"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp">
+
+
+                    <Button
+                        android:id="@+id/booth"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="BOOTH"
+                        android:textStyle="bold" />
+
+
+                    <Button
+                        android:id="@+id/animate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ANIMATE"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/yuyutei"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="遊遊亭"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
+

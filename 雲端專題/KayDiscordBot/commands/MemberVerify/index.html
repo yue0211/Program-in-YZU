@@ -1,0 +1,279 @@
+<!DOCTYPE>
+<html lang="zh-TW">
+<head>
+    <meta charset="utf-8">
+	<title>Discord驗證高級會員</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>	
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style type="text/css">
+        .green{
+            border:5px solid #969696;
+        }
+		<!--/* 寬螢幕模式：寬螢寬度 1200px 以上。 */-->
+        @media screen and (min-width:1200px) {
+            p{
+				font-size:20px;
+			}
+        }
+        <!--/* 膝上型模式：寬螢寬度 992px 以上，小於 1200px。 */-->
+        @media screen and (min-width: 992px) and (max-width: 1199px) {
+			p{
+				font-size:20px;
+			}
+        }
+        <!--/* 平板模式：寬螢寬度 768px 以上，小於 992px。 */-->
+        @media screen and (min-width: 768px) and (max-width: 991px) {
+            p{
+				font-size:20px;
+			}
+        }
+        <!--/* 手機模式：寬螢寬度小於 768px。 */-->
+        @media screen and (max-width: 767px) {
+            p{
+				font-size:10px;
+			}
+			label{
+				font-size:10px;
+			}
+			input::-webkit-input-placeholder {
+				font-size: 10px;
+				line-height: 2;
+				line-width: 5;
+			}
+			.btn{
+				font-size:10px;
+			}
+			
+			input{
+				font-size:10px;  
+			}
+        }
+    </style>
+    <script type="text/javascript">
+
+         var output = ""; // stores the output 
+		 var checkGate01=0;
+		 var checkGate02=0;
+		 var checkGate03=0;
+		 var checkGate04=0;
+
+         function Gate01()  //gate01 轉到 gate02
+         {
+			var Gate01=document.getElementById( "Gate01" );
+			var Gate02=document.getElementById( "Gate02" );
+            Gate01.style.border="5px solid #00BDBD";
+			Gate02.style.border="5px solid #00BDBD";
+			Gate02.style.color="BABABA";
+			Gate01.style.color="#696969";
+			var choice1 = document.getElementById('choice1');
+            var choice2 = document.getElementById('choice2');
+            var choice3 = document.getElementById('choice3');
+            var choice4 = document.getElementById('choice4');
+			choice1.disabled=false;
+            choice2.disabled=false;
+            choice3.disabled=false;
+            choice4.disabled=false;
+         } // end function calculateFactorials
+         
+		 function Gate02()  //gate02 轉到 gate03
+         {
+			var Gate02=document.getElementById( "Gate02" );
+			var Gate03=document.getElementById( "Gate03" );
+			Gate03.style.border="5px solid #00BDBD";
+			Gate03.style.color="BABABA";
+			Gate02.style.color="#696969";
+			var choice1 = document.getElementById('choice1');
+            var choice2 = document.getElementById('choice2');
+            var choice3 = document.getElementById('choice3');
+            var choice4 = document.getElementById('choice4');
+			var describe1 = document.getElementById('describe1');
+            var describe2 = document.getElementById('describe2');
+            var describe3 = document.getElementById('describe3');
+            var describe4 = document.getElementById('describe4');
+            choice1.disabled=true;
+            choice2.disabled=true;
+            choice3.disabled=true;
+            choice4.disabled=true;
+            describe1.disabled=false;
+            describe2.disabled=false;
+            describe3.disabled=false;
+            describe4.disabled=false;
+			
+         } // end function calculateFactorials
+
+
+        function finish()  //勾選同意
+		 {
+			var describe1=document.getElementById('describe1').value;
+			var describe2=document.getElementById('describe2').value;
+			var describe3=document.getElementById('describe3').value;
+			var describe4=document.getElementById('describe4').value;
+			
+			if(describe1=="禁止引戰、謾罵、洗頻"&&describe2=="減少不雅用詞"&&describe3=="尊重與遵從管理員指示"&&describe4=="保持頻道主題相符話題")
+				Gate04();
+			else
+			{
+				alert("尚未輸入完成");
+				document.getElementById("agree").checked=false;
+			}
+			
+		 }
+		 
+		 function Gate04()  //gate04 會員認證
+		 {
+			var Gate04=document.getElementById( "Gate04" );
+			var Gate03=document.getElementById( "Gate03" );
+			Gate04.style.border="5px solid #00BDBD";
+			Gate04.style.color="BABABA";
+		    Gate03.style.color="#696969";
+            var describe1 = document.getElementById('describe1');
+            var describe2 = document.getElementById('describe2');
+            var describe3 = document.getElementById('describe3');
+            var describe4 = document.getElementById('describe4');
+            describe1.disabled=true;
+            describe2.disabled=true;
+            describe3.disabled=true;
+            describe4.disabled=true;
+			var text=document.getElementById( "text" );
+			text.disabled=false;
+			
+		 }
+		 
+         function progress() {
+			var text = $("#text").val();
+			$.ajax({
+			url: "index.php",
+			data: {
+					text:text
+				},
+			type: "POST",
+			datatype: "html",
+				success: function( output ) {
+			   $( "#out" ).html(output);
+				},
+			error : function(xmlhttprequest){
+				alert( "Request failed." +xmlhttprequest.status);
+			}
+			});
+		}
+    </script>
+
+</head>
+<body style="background-color:#262626;">
+    <h2 class="text-center text-md-center text-lg-center mt-2 mt-md-2 mt-lg-2" style="color:#969696"">SHELTER ZONE - 🚧 邊境檢查</p>
+    <div class="container">
+        <div class="row justify-content-center" >
+            <div class="col-4 col-md-3 col-lg-3 green mx-md-2 mx-lg-2 mx-2" id="Gate01">
+                <p>Gate-01-加入伺服器</p>
+				<p>請先加入discord 伺服器</p>
+                <a class="btn btn-primary mb-2" href="https://discord.gg/jXnmJyST" role="button" target="_blank" onclick="Gate01()">加入伺服器</a>
+                
+            </div>
+            <div class="col-4 col-md-3 col-lg-3 green " id="Gate02">
+                <p>Gate-02-加入伺服器目的</p>
+                <div class="form-check text-md-start" style="font-size:15px;">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="choice1" onclick="Gate02()" disabled>
+                    <label class="form-check-label text-md-start" for="flexRadioDefault1">
+                        Youtube
+                    </label>
+                </div>
+                <div class="form-check text-md-start" style="font-size:15px;">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="choice2" onclick="Gate02()" disabled>
+                    <label class="form-check-label text-md-start" for="flexRadioDefault1">
+                        跑online
+                    </label>
+                </div>
+                <div class="form-check text-md-start" style="font-size:15px;">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="choice3" onclick="Gate02()" disabled>
+                    <label class="form-check-label text-md-start" for="flexRadioDefault1">
+                        程式設計
+                    </label>
+                </div>
+                <div class="form-check text-md-start" style="font-size:15px;">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="choice4" onclick="Gate02()" disabled>
+                    <label class="form-check-label text-md-start" for="flexRadioDefault1">
+                        楓之谷
+                    </label>
+                </div>
+                
+            </div>
+            
+        </div>
+        <div class="row justify-content-center mt-md-2 mt-lg-2 mt-2" >
+            <div class="col-8 col-md-6 col-lg-6 green " id="Gate03">
+                <p>Gate-03-避難者條款</p>
+				<p>請依照提示重複輸入文字</p>
+                <div class="row justify-content-center">
+					<div class="col-md-6 col-12">
+						<div class="input-group mb-md-3 mb-3">
+							<input type="text" class="form-control" placeholder="禁止引戰、謾罵、洗頻" aria-label="禁止引戰、謾罵、洗頻" aria-describedby="basic-addon1" style="width:50px;" id="describe1" disabled>
+						</div>
+					</div>
+				</div>
+                <div class="row justify-content-center">
+					<div class="col-md-6 col-12">
+						<div class="input-group mb-md-3 mb-3">
+							<input type="text" class="form-control" placeholder="減少不雅用詞" aria-label="減少不雅用詞" aria-describedby="basic-addon1" id="describe2" disabled>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-md-6 col-12">
+						<div class="input-group mb-md-3 mb-3">
+							<input type="text" class="form-control" placeholder="尊重與遵從管理員指示" aria-label="尊重與遵從管理員指示" aria-describedby="basic-addon1" id="describe3" disabled>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-md-6 col-12">
+						<div class="input-group mb-md-3 mb-3">
+							<input type="text" class="form-control" placeholder="保持頻道主題相符話題" aria-label="保持頻道主題相符話題" aria-describedby="basic-addon1" id="describe4" disabled>
+						</div>
+					</div>
+					
+				</div>
+                <hr>
+                <div class="row ">
+					<div class="col-md-6 col-12">
+                        <p style="margin-top:10px;text-align:left;">其他注意事項:</p>
+                        <p style="margin-top:5px;text-align:left;">1. 不要在任何分享性質頻道閒聊與問答</p>
+                        <p style="margin-top:5px;text-align:left;">2. 除非問題涉及隱私，否則別亂私訊他人</p>
+                        <p style="margin-top:5px;text-align:left;">3. 拜託，當個有素質的正常人</p>
+                        <p style="margin-top:5px;text-align:left;">如違反以上規定，且不聽從管理員勸告指示者，一律永Ban</p>	
+                    </div>
+                    <div class="form-check text-start text-md-start ms-md-2 ms-2" style="font-size:20px;">
+                        <input class="form-check-input" type="checkbox" value="" id="agree" onclick="finish()">
+                        <label class="form-check-label" for="flexCheckDefault">
+                           我同意以上條款
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-md-2 mt-lg-2 mt-2" >
+            <div class="col-8 col-md-6 col-lg-6 green text-md-start text-start" id="Gate04">
+                <p style="text-align:center;">Gate-04-認證碼</p>
+                <p>1.於伺服器 #terminal 頻道輸入 #atid 指令可獲取自己的Discord ID</p>
+                <p>2.請確實輸入ID，否則產生的驗證碼為無效驗證碼</p>
+                <div class="row justify-content-start">
+					<div class="col-md-6 col-6">
+						<div class="input-group mb-md-3 mb-3 ">
+							<input type="text" class="form-control" placeholder="輸入Discord ID" aria-label="輸入Discord ID" aria-describedby="basic-addon1" id="text" disabled>
+						</div>
+					</div>
+                    <div class="col-md-6 col-6">
+                        <button type="button" class="btn btn-secondary" onclick="progress()">產生驗證碼</button>
+                    </div>
+				</div>
+                <p>3.於伺服器 #terminal 頻道輸入指令 #check + 你的驗證碼</p>
+                <p>範例: #check 8@2f89%2</p>
+                <p id="out" style="color:yellow;text-align:left;"></p>
+            </div>
+        </div>
+    </div>
+    <p class="text-center mt-2" style="color:red;">如有任何指令或驗證碼無法運作，請聯繫管理員或幹幹的#4971</p>
+    
+
+</body>
+</html>

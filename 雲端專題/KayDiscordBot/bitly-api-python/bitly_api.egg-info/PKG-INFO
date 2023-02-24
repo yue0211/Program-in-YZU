@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: bitly-api
+Version: 0.3
+Summary: An API for bit.ly
+Home-page: https://github.com/bitly/bitly-api-python
+Author: Jehiah Czebotar
+Author-email: jehiah@gmail.com
+License: Apache Software License
+Keywords: bitly bit.ly
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content :: CGI Tools/Libraries
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: Apache Software License
+License-File: LICENSE
+
+## API Documentation
+
+For documentation of current version of the Bitly API visit https://dev.bitly.com/
+
+

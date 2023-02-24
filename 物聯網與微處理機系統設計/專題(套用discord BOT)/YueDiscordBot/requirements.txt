@@ -1,0 +1,6 @@
+discord.py==1.7.3
+pytz
+psycopg2
+youtube_dl
+PyNaCl
+requests
