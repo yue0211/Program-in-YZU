@@ -1,0 +1,42 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>登入視窗</title>
+  <style type = "text/css">
+        .div1
+		 {	 width:410px;
+			 height:370px;
+			 
+			 position:absolute;
+			 left:50%;top:50%;margin-left:-200px;margin-top:-150px;
+			 
+			 border-width:3px;
+			 border-color:CornflowerBlue;
+			 border-style:solid;
+			 
+			 background-color:white;
+		 }
+      </style>
+</head>
+<body background="login-back.jpg">
+<form method="post" action = "登入.php">
+  <div class="div1">
+	<p style = " vertical-align: top;font-weight: bold;font-size:15pt;" >線上聊天室</p>
+	<em style = "vertical-align: left;">請輸入帳號密碼</em>
+	<p style="margin-bottom:3em;"><label>帳號:
+		<input id = "account" type = "text" size = "25" name="account" required>
+	</label></p>
+	<p style="margin-bottom:3em;"><label>密碼:
+	   <input id = "password" type = "password" size = "25" name="password" required>
+	</label></p>
+	<p style="margin-bottom:3em;" ><label>匿名:
+	   <input type = "text" size = "25" name="text" required>
+	</label></p>
+	<p>
+	<input id="login" type="submit" value="登入" style="width:120px;height:40px;font-size:20px;background-color:pink;">
+	<a href="會員註冊.html">還沒註冊嗎?點擊這裡立即註冊</a>
+	</p>
+  </div>
+</form>
+</body>
+</html>

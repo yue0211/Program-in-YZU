@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8">
+	<title>聊天室會員註冊</title>
+	<style type="text/css">
+	  body
+	  {
+		background:url('background.png') rgb(0,0,0,0.5);
+		background-repeat: no-repeat;
+		background-attachment:fixed;
+		background-position:55% 55%;
+	  }
+	  h1
+	  {
+		 margin-top:15px;
+		 position:relative;
+		 margin-left:250px;
+		 margin-buttom:5px;
+	  }
+	  form
+	  {
+		 position:relative;
+		 margin-left:250px;
+		 margin-top:20px;
+	  }
+	  input
+	  {
+		font-size:20px;
+	  }
+	  label
+	  {
+		font-weight:bold;
+		font-size:20px;
+	  }
+	  a           
+	  { 
+		font-weight: bold;
+		font-size:25px;
+		color: white;
+		border: 2px solid RoyalBlue;
+		text-align: center;
+		width: 10em;
+		background-color: RoyalBlue; 
+		float:left;
+	  }				
+      a:hover       
+	  {
+		 background-color:red;
+	  }
+	  div.head
+	  {
+			position:relative;
+			margin-left:220px;
+			background-color:RoyalBlue;
+	  }
+	  #Button
+	  {
+		 position:relative;
+		 border-radius: 50px;
+		 font-weight:bold;
+		 border: 3px solid red;
+		 padding: 20px 20px;
+		 background-color:orange;
+		 color:white;
+		 margin-left:300px;
+		 margin-bottom:20px;
+	  }
+	  .helpText   { font-family: sans-serif; color: red; font-size:25px;}
+
+	</style>
+	<script>
+	   var helpText1;
+	   var helpText2;
+	   var helpText3;
+	   var helpText4;
+	   var helpText5;
+	   var helpText6;
+	   function start()
+	   {
+			helpText1=document.getElementById("helpText1");
+			helpText2=document.getElementById("helpText2");
+			helpText3=document.getElementById("helpText3");
+			helpText4=document.getElementById("helpText4");
+			helpText5=document.getElementById("helpText5");
+			helpText6=document.getElementById("helpText6");
+			var name=document.getElementById("name");
+			var sex=document.getElementById("sex");
+			var tel=document.getElementById("tel");
+			var email=document.getElementById("email");
+			var account=document.getElementById("account");
+			var password=document.getElementById("password");
+			name.addEventListener("click",change1,false);
+			sex.addEventListener("click",change2,false);
+			tel.addEventListener("click",change3,false);
+			email.addEventListener("click",change4,false);
+			account.addEventListener("click",change5,false);
+			password.addEventListener("click",change6,false);
+			var myForm = document.getElementById( "myForm" );
+			myForm.addEventListener( "submit", function() { return confirm( "確認是否提交?" ); }, false );
+	   }
+	   function change1()
+	   {
+		  helpText1.innerHTML="➤";
+		  helpText2.innerHTML="";
+		  helpText3.innerHTML="";
+		  helpText4.innerHTML="";
+		  helpText5.innerHTML="";
+		  helpText6.innerHTML="";
+		  
+	   }
+	   function change2()
+	   {
+		  helpText2.innerHTML="➤";
+		  helpText1.innerHTML="";
+		  helpText3.innerHTML="";
+		  helpText4.innerHTML="";
+		  helpText5.innerHTML="";
+		  helpText6.innerHTML="";
+		  
+	   }
+	   function change3()
+	   {
+		  helpText3.innerHTML="➤";
+		  helpText1.innerHTML="";
+		  helpText2.innerHTML="";
+		  helpText4.innerHTML="";
+		  helpText5.innerHTML="";
+		  helpText6.innerHTML="";
+		  
+	   }
+	   function change4()
+	   {
+		  helpText4.innerHTML="➤";
+		  helpText1.innerHTML="";
+		  helpText2.innerHTML="";
+		  helpText3.innerHTML="";
+		  helpText5.innerHTML="";
+		  helpText6.innerHTML="";
+		  
+	   }
+		function change5()
+	   {
+		  helpText5.innerHTML="➤";
+		  helpText4.innerHTML="";
+		  helpText1.innerHTML="";
+		  helpText2.innerHTML="";
+		  helpText3.innerHTML="";
+		  helpText6.innerHTML="";
+		  
+	   }
+	   function change6()
+	   {
+	      helpText6.innerHTML="➤";
+		  helpText4.innerHTML="";
+		  helpText1.innerHTML="";
+		  helpText2.innerHTML="";
+		  helpText3.innerHTML="";
+		  helpText5.innerHTML="";
+	   }
+	</script>
+  </head>
+
+  <body onload="start()">
+	<div class="head">
+	  <a href="會員註冊.html">註冊 </a>
+	  <a href="聊天室登入頁面.html">登入</a>
+     </div>
+	 <br> <br> <br>
+	<h1>聊天室會員註冊(<span style="color:red;">肥宅</span>)</h1>
+	<form id="myForm" method="post" action = "註冊.php">
+	  <p><span class="helpText" id="helpText1"></span><label>姓名:
+          <input name = "name" type = "text" size = "25" id ="name" required>
+      </label></p>
+	  <br>
+	  <p><span class="helpText" id="helpText2"></span><label>性別:
+          <input name = "sex" type = "text" size = "10" id ="sex" required>
+      </label></p>
+	  <br>
+	  <p><span class="helpText" id="helpText3"></span><label>電話:
+           <input type = "tel" placeholder = "####-###-###" pattern = "\d{4}-\d{3}-\d{3}" id ="tel" name="tel" required >
+      </label></p>     
+      <br>
+	  <p><span class="helpText" id="helpText4"></span><label>註冊信箱:
+        <input type = "email" placeholder = "name@domain.com" size = "25" id="email" name="email" required > 
+      </label></p>
+	  <br>
+      <p><span class="helpText" id="helpText5"></span><label>帳號:
+        <input type = "text" size = "25" id="account" name="account" required > 
+      </label></p>
+	  <br>
+	  <p><span class="helpText" id="helpText6"></span><label>密碼:
+        <input type = "text" size = "25" id="password" name="password"  required > 
+      </label></p> 
+	  
+	  <p>
+		   <label style="color:red;">為了避免您不是肥宅或著您是機器人 請回答此問題:</label><br><br>
+		   &nbsp;&nbsp;<label>請問海賊王的男主角是誰?</label><br><br>
+		   <label>
+			  <input name = "question" type = "radio" value = "蒙奇D魯夫" checked>蒙奇D魯夫</label><br>
+		   <label>
+			  <input name = "question" type = "radio" value = "虎杖悠仁">虎杖悠仁</label><br>
+		   <label>
+			  <input name = "question" type = "radio" value = "娜美">娜美</label><br>
+		   <label>
+			  <input name = "question" type = "radio" value = "索隆">索隆</label><br>
+		   <label>
+			  <input name = "question" type = "radio" value = "わからない( 不知道 )">わからない( 不知道 )</label><br>
+	  </p>
+
+	  <br>
+	  <p> <input type = "submit" value = "提交" id="Button"></p>
+      
+	 
+	</form>
+	<p id = "helpText"></p>
+
+  </body>
+
+
+</html>
