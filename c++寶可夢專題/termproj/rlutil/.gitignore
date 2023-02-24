@@ -1,0 +1,10 @@
+*~
+Readme.html
+docs/nd
+*.exe
+test
+example-c
+
+# OS X Crap
+*.dSYM
+**/.DS_Store
